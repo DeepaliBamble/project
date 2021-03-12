@@ -9,81 +9,95 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body class=" justify-center bg-blue-400">
+<body class="  bg-blue-400">
 <main class="flex mt-16 h-5/6 justify-center ">
    <div class=" bg-primary w-64 border border-primary rounded-3xl ">
 
     <div class=" text-gray-200 flex" >
         <div class=" p-5 justify-start">
-            <span class="material-icons">menu</span>
+            <a href="#">
+                <span class="material-icons">menu</span>
+            </a>
+            
         </div>
     <div class="py-5 justify-end ml-28 ">
-        <span class="material-icons">search</span>
+        <a href="#">
+            <span class="material-icons">search</span></a>
     </div>
     <div >
-        <span class="material-icons py-5">notifications_none</span>
+        <a href="#">
+                <span class="material-icons py-5 ">notifications_none</span>
+        </a>
     </div>         
 
     </div>
    
 <div>
     <span class="text-white p-5 font-bold text-xl">What's up, Olivia!</span>
-</div>
-<br>
-<div>
-<span class="p-5 text-gray-200  text-sm ">CATEGORIES</span>
+</div> <br>
+
+<div >
+<span class="p-5 text-gray-200  text-sm">CATEGORIES</span>
 </div>
 <!-- cards-->
-<div class="flex gap-5 p-5">
+<div class="flex flex-row flex-auto gap-4 ml-3 mt-3 ">
 
 <div class="card">
     <span>
-        <span >40 Task </span><br>
-        <span>Business</span>
+        <span class="text-xs text-gray-400 p-10" >40 Task </span><br>
+        <span class="p-10">Business</span>
+        <span class="justfy-center ">
+            <progress class="h-1 mr-3 justify-center"></progress>
+        </span>
+           
     </span>
-    
+        
 </div>
+
 
 <div class="card">
     <span>
-        <span >18 Task </span><br>
-        <span>Persnol</span>
+        <span class="text-xs text-gray-400 p-10" >18 Task </span><br>
+        <span class="p-10">Persnol</span>
+        <span class="justfy-center ">
+            <progress class="h-1 mr-3 justify-center"></progress>
+        </span>
+        
     </span>
     
 </div>
-</div>
-
+</div><br>
 <div>
-    <span class="p-5 text-gray-200  text-sm ">Today's Task</span>
+    <span class="p-5 text-gray-200 text-sm ">TTODAY'S TASKS</span>
     </div>
 
 
     <div class="flex flex-col">      
 
-        <label class="inline-flex  mt-3 m-3 bg-blue-900 rounded-xl gap-2 p-2 ">
-            <input type="checkbox" class="form-checkbox h-5 w-5" >
+        <label class="inline-flex h-8 mt-3 m-3 bg-blue-900 rounded-xl gap-1 p-2 ">
+            <input type="checkbox" class="form-checkbox h-4 w-4" >
             <span class="text-white">Daily Meeting With Team</span>
         </label>
 
-        <label class="inline-flex  mt-1 m-3 bg-blue-900 rounded-xl gap-2 p-2 ">
-            <input type="checkbox" class="form-checkbox h-5 w-5 " >
-            <span class="text-white">Pay for Rent</span>
+        <label class="inline-flex h-8 mt-1 m-3 bg-blue-900 rounded-xl gap-1 p-2 ">
+            <input type="checkbox" class="form-checkbox h-4 w-4 " >
+            <span class="text-white line-through">Pay for Rent</span>
         </label>
 
-        <label class="inline-flex  mt-1 m-3 bg-blue-900 rounded-xl gap-2 p-2 ">
-            <input type="checkbox" class="form-checkbox h-5 w-5" >
+        <label class="inline-flex h-8 mt-1 m-3 bg-blue-900 rounded-xl gap-2 p-2 ">
+            <input type="checkbox" class="form-checkbox h-4 w-4" >
             <span class="text-white">Check for Emails</span>
         </label>
 
-        <label class="inline-flex  mt-1 m-3 bg-blue-900 rounded-xl gap-2 p-2 ">
-            <input type="checkbox" class="form-checkbox h-5 w-5" >
+        <label class="inline-flex h-8 mt-1 m-3 bg-blue-900 rounded-xl gap-2 p-2 ">
+            <input type="checkbox" class="form-checkbox h-4 w-4" >
             <span class="text-white">Lunch with Emma</span>
         </label>
-        <label class="inline-flex  mt-1 m-3 bg-blue-900 rounded-xl gap-2  p-2 ">
-            <input type="checkbox" class="form-checkbox h-5 w-5" >
+        <label class="inline-flex h-8 mt-1 m-3 bg-blue-900 rounded-xl gap-2  p-2 ">
+            <input type="checkbox" class="form-checkbox h-4 w-4" >
             <span class="text-white ">Meditation</span>
             <span> <a href="#">         
-                <button class="h-8 w-8 ml-16 bg-pink-400 text-white justify-center rounded-full">+</button></a> 
+                <button class="h-10 w-10 ml-16 bg-pink-400 text-white justify-center rounded-full">+</button></a> 
                 </span>
 
          </label>
@@ -91,11 +105,6 @@
            
 
         </div>
-
-
-
-
-
 </div>
         
 </main>

@@ -5,5 +5,5 @@
 
 
 .card {
-    @apply grid items-center bg-blue-900 text-white font-semibold justify-center w-32 overflow-hidden shadow-md h-20 border-dashed border-black border rounded-lg;
+    @apply flex items-center bg-blue-900 text-white font-semibold justify-center w-32  overflow-hidden shadow-2xl h-20 rounded-lg;
 }
