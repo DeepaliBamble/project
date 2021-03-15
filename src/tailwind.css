@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 
-
 .card {
-    @apply flex items-center bg-blue-900 text-white font-semibold justify-center w-32  overflow-hidden shadow-2xl h-20 rounded-lg;
+    @apply flex items-center bg-second text-white font-semibold justify-center  shadow-2xl h-20 rounded-lg;
 }
