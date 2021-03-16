@@ -4,5 +4,5 @@
 
 
 .card {
-    @apply flex items-center bg-second text-white font-semibold justify-center  shadow-2xl h-20 rounded-lg;
+    @apply bg-second text-white font-semibold shadow-xl rounded-3xl;
 }

@@ -9,26 +9,28 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body class=" bg-blue-400 flex mt-16 justify-center ">
-<main class=" flex h-full pb-16   ">
-   <div class=" bg-primary w-64 border border-primary rounded-3xl ">
+<body class=" bg-blue-400 flex justify-center w-screen">
+<main class="flex">
+   <div class=" bg-indigo-700 border border-primary w-screen">
 
     <div class=" text-gray-200 flex" >
-        <div class=" p-5 justify-start">
+        <div class=" p-5 justify-start flex-grow">
             <a href="#">
                 <span class="material-icons">menu</span>
             </a>
             
         </div>
-    <div class="py-5 justify-end ml-28 ">
+        <div class="flex py-5 pr-5 gap-2">
+    <div>
         <a href="#">
             <span class="material-icons">search</span></a>
     </div>
     <div>
         <a href="#">
-                <span class="material-icons py-5 ">notifications_none</span>
+                <span class="material-icons ">notifications_none</span>
         </a>
-    </div>         
+    </div>    
+</div>     
 
     </div>
    
@@ -37,40 +39,35 @@
 </div> <br>
 
 <div >
-<span class="p-5 text-gray-200  text-sm">CATEGORIES</span>
+<span class="p-5 text-gray-200 text-sm">CATEGORIES</span>
 </div>
 <!-- cards-->
 
-<div class="flex w-72 gap-6 ml-5 mt-3 ">
+<div class="grid gap-6 pb-8 mt-4 overflow-x-scroll overflow-y-hidden grid-flow-col">
 
-<div class="card">
-    <span>
-        <span class="text-xs text-gray-400 p-10" >40 Task </span><br>
-        <span class="p-10">Business</span>
-        <div class="h-1 relative ml-5 w-24 mr-5 mt-2 rounded-full overflow-hidden">
-            <div class="w-full h-full bg-gray-200 absolute"></div>
+<div class="card w-40 py-4 px-4 ml-5">
+    <div>
+        <div class="text-xs text-gray-400 pt-1">40 Task </div>
+        <div>Business</div>
+        <div class="h-1 relative w-full mt-2 rounded-full">
+            <div class="w-full h-full bg-gray-200 bg-opacity-50 absolute left-0"></div>
             <div class="h-full bg-pink-500 absolute" style="width:40%"></div>
         </div>
-        
-           
-    </span>
-        
+    </div>
 </div>
 
 
-<div class="card">
-    <span>
-        <span class="text-xs text-gray-400 p-10" >18 Task </span><br>
-        <span class="p-10">Personal</span>
-            <div class="h-1 relative ml-5 w-24 mr-5 rounded-full mt-2 overflow-hidden">
-            <div class="w-full h-full bg-gray-200 absolute"></div>
-            <div class="h-full bg-blue-500 absolute" style="width:18%"></div>
+<div class="card w-40 py-4 px-4">
+    <div>
+        <div class="text-xs text-gray-400 pt-1">40 Task </div>
+        <div>Personal</div>
+        <div class="h-1 relative w-full mt-2 rounded-full">
+            <div class="w-full h-full bg-gray-200 bg-opacity-50 absolute left-0"></div>
+            <div class="h-full bg-blue-500 absolute" style="width:40%"></div>
         </div>
-        
-        
-    </span>
-    
+    </div>
 </div>
+
 </div><br>
 
 
@@ -79,41 +76,56 @@
     <div>
     <span class="p-5 text-gray-200 text-sm ">TODAY'S TASKS</span>
     </div>
-    <div class="flex flex-col ">      
+    <div class="mx-4">      
 
-        <label class="inline-flex items-center h-10 mt-2 m-3 bg-second rounded-xl gap-1 p-2 ">
-            <input type="checkbox" class="form-checkbox h-4 w-4 " >
-            <span class="text-white">Daily Meeting With Team</span>
-        </label>
+        <div class="mt-2 bg-second rounded-2xl gap-2 px-4 w-full flex items-center">
+            <input type="checkbox" class="form-checkbox h-4 w-4" >
+            <span class="text-white py-4">Daily Meeting With Team</span>
+        </div>
 
-        <label class="inline-flex items-center h-10 mt-1 m-3 bg-second rounded-xl gap-1 p-2 ">
+        <div class="mt-2 bg-second rounded-2xl gap-2 px-4 w-full flex items-center">
+            <input type="checkbox" class="form-checkbox h-4 w-4" >
+            <span class="text-white py-4">Daily Meeting With Team</span>
+        </div>
+        
+        <div class="mt-2 bg-second rounded-2xl gap-2 px-4 w-full flex items-center">
+            <input type="checkbox" class="form-checkbox h-4 w-4" >
+            <span class="text-white py-4">Daily Meeting With Team</span>
+        </div>
+        
+        <div class="mt-2 bg-second rounded-2xl gap-2 px-4 w-full flex items-center">
+            <input type="checkbox" class="form-checkbox h-4 w-4" >
+            <span class="text-white py-4">Daily Meeting With Team</span>
+        </div>        
+
+        <!-- <div class="mt-2 bg-second rounded-xl gap-2 p-2 w-full flex items-center">
             <input type="checkbox" class="form-checkbox h-4 w-4 " >
             <span class="text-white line-through">Pay for Rent</span>
-        </label>
+        </div>
 
-        <label class="inline-flex items-center h-10 mt-1 m-3 bg-second rounded-xl gap-2 p-2 ">
+        <div class="mt-2 bg-second rounded-xl gap-2 p-2  w-full flex items-center">
             <input type="checkbox" class="form-checkbox h-4 w-4" >
             <span class="text-white">Check for Emails</span>
-        </label>
+        </div>
 
-        <label class="inline-flex items-center h-10 mt-1 m-3 bg-second rounded-xl gap-2 p-2 ">
+        <div class="mt-2 bg-second rounded-xl gap-2 p-2  w-full flex items-center">
             <input type="checkbox" class="form-checkbox h-4 w-4" >
             <span class="text-white">Lunch with Emma</span>
-        </label>
-        <label class="inline-flex items-center h-10 mt-1 m-3 bg-second rounded-xl gap-2  p-2 ">
+        </div>
+        <div class="mt-2 bg-second rounded-xl gap-2 p-2  w-full flex items-center">
             <input type="checkbox" class="form-checkbox h-4 w-5" >
             <span class="text-white ">Meditation</span>
-
-            <span class="grid pl-14">
-                <button class="  h-10 w-10 bg-pink-600 text-white justify-center rounded-full ">+</button>
-            </span>
-        </label>
+        </div> -->
 
             
                     
         </div>   
          
-     </div>       
+     </div>
+     
+     <div class="fixed bottom-0 right-0 mr-8 mb-8">
+        <button class="bg-pink-600 text-white justify-center rounded-full w-12 h-12 text-3xl shadow-xl">+</button>
+     </div>
 </div>
         
 </main>
